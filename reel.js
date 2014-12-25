@@ -3,7 +3,7 @@
 
   window.Reel = function (options) {
     this.configure(options || {});
-    this.setup();
+    this.bindEvents();
   };
 
   Reel.prototype.configure = function (options) {
@@ -15,14 +15,8 @@
   };
 
   Reel.prototype.defaults = {
-    breakpointWidth: 480,
     selector: '.hero-video',
     scrollThreshold: 0.9
-  };
-
-  Reel.prototype.setup = function () {
-    this.preloadVideo();
-    this.bindEvents();
   };
 
   Reel.prototype.bindEvents = function () {
@@ -38,12 +32,6 @@
   Reel.prototype.playVideo = function () {
     if (this.video.paused) {
       this.video.play();
-    }
-  };
-
-  Reel.prototype.preloadVideo = function () {
-    if (document.documentElement.clientWidth >= this.breakpointWidth) {
-      this.toggleVideo();
     }
   };
 
