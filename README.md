@@ -7,7 +7,7 @@ Reel is a small (534B, gzipped) JavaScript library for handling “hero” video
 1. Include the library.
 
   ```html
-  <script src="reel.js" defer></script>
+  <script src="reel.min.js" defer></script>
   ```
 
 2. Add a hook to the video.
