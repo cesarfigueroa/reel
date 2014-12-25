@@ -1,6 +1,6 @@
 # Reel
 
-Reel is a small (534B, gzipped) JavaScript library for handling “hero” videos. It does two things: autoplays the video above a specified width (by default, this is 480px) and pauses the video when either the user has tabbed away from the page or scrolled beyond the video.
+Reel is a tiny (534B, gzipped) JavaScript library for handling video play states. At the moment, it does two things: autoplays the video above a specified width (by default, this is 480px) and pauses the video when either the user has tabbed away from the page or scrolled beyond the video.
 
 ## Usage
 
