@@ -17,7 +17,7 @@
   Reel.prototype.defaults = {
     breakpointWidth: 480,
     selector: '.hero-video',
-    threshold: 0.9
+    scrollThreshold: 0.9
   };
 
   Reel.prototype.setup = function () {
@@ -63,7 +63,7 @@
 
   Reel.prototype.isVideoVisible = function () {
     var rect = this.video.getBoundingClientRect();
-    return rect.bottom >= rect.height - (rect.height * this.threshold);
+    return rect.bottom >= rect.height - (rect.height * this.scrollThreshold);
   };
 
   Reel.prototype.isDocumentHidden = function () {
