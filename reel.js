@@ -1,10 +1,12 @@
 (function () {
   'use strict';
 
-  window.Reel = function (options) {
+  var Reel = function (options) {
     this.configure(options || {});
     this.bindEvents();
   };
+
+  window.Reel = Reel;
 
   Reel.prototype.configure = function (options) {
     for (var defaultValue in this.defaults) {
