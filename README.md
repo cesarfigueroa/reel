@@ -1,6 +1,6 @@
 # Reel
 
-Reel is a tiny (468B, gzipped) JavaScript library for handling video play states. At the moment, it does two things: it pauses the video when the user has either tabbed away from the page or scrolled beyond the video.
+Reel is a tiny (~0.5KB, gzipped) JavaScript library for handling video play states. At the moment, it does two things: it pauses the video when the user has either tabbed away from the page or scrolled beyond the video.
 
 ## Usage
 
