@@ -17,7 +17,7 @@
   };
 
   Reel.prototype.defaults = {
-    selector: '.hero-video',
+    selector: '[data-reel="true"]',
     scrollThreshold: 0.9
   };
 
