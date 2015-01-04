@@ -13,7 +13,7 @@ Reel is a tiny (~0.5KB, gzipped) JavaScript library for handling video play stat
 2. Add a hook to the video.
 
   ```html
-  <video class="hero-video"></video>
+  <video data-reel="true"></video>
   ```
 
 3. Instantiate the class.
@@ -27,4 +27,4 @@ Reel is a tiny (~0.5KB, gzipped) JavaScript library for handling video play stat
 Reel takes two arguments, in the form of an object.
 
 1. `scrollThreshold: 0.9`: Controls how much a user can scroll past the video before it pauses (this should be a number between 0 and 1).
-2. `selector: '.hero-video'`: Sets the CSS selector that targets the video.
+2. `selector: '[data-reel="true"]'`: Sets the CSS selector that targets the video.
