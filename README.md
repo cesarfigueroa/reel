@@ -2,6 +2,10 @@
 
 Reel is a tiny (~0.5KB, gzipped) JavaScript library for handling video play states. At the moment, it does two things: it pauses the video when the user has either tabbed away from the page or scrolled beyond the video.
 
+## Installation
+
+Install with Bower (`bower install reel`) or manually download the [reel.min.js](reel.min.js) file to your project’s directory.
+
 ## Usage
 
 1. Include the library.
