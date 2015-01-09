@@ -1,0 +1,22 @@
+{
+  "name": "reel",
+  "description": "A tiny JavaScript library for handling <video> play states.",
+  "main": "reel.js",
+  "license": "MIT",
+  "ignore": [
+    "README.md",
+    "LICENSE.txt"
+  ],
+  "keywords": [
+    "video"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/cesarfigueroa/reel.git"
+  },
+  "version": "0.0.1",
+  "homepage": "https://github.com/cesarfigueroa/reel",
+  "authors": [
+    "Cesar Figueroa"
+  ]
+}
